@@ -1,0 +1,9 @@
+## Architecture
+The project follows a microservices architecture with the following components:
+- Frontend: React.js (not included in this repository)
+- Backend: FastAPI (Python)
+- Database: PostgreSQL and Redis
+
+## Authors
+- Name: Your Name
+- Email: your.email@example.com

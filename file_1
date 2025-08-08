@@ -1,0 +1,31 @@
+anomaly_detection/
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── anomaly_detector.py
+│   ├── notification_service.py
+│   ├── data_processing.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── sales_data.py
+│   │   ├── user.py
+│   ├── routes
+│   │   ├── __init__.py
+│   │   ├── sales.py
+│   │   ├── users.py
+│   ├── utils.py
+│   └── main.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_anomaly_detector.py
+│   ├── test_data_processing.py
+│   ├── test_notification_service.py
+│   ├── test_sales_route.py
+│   └── test_user_route.py
+├── .env
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── README.md
+└── setup.py

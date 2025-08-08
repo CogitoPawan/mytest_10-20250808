@@ -1,0 +1,5 @@
+This setup includes:
+- A FastAPI application with modular design
+- Anomaly detection using Isolation Forest
+- Real-time alert service
+- Logging and error handling

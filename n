@@ -1,0 +1,12 @@
+import pandas as pd
+from app.anomaly_detector import AnomalyDetector
+
+def test_anomaly_detector():
+    data = pd.DataFrame({
+        'sales_amount': [10, 12, 12, 13, 105, 14, 13, 14, 13, 15]
+    })
+    detector = AnomalyDetector()
+    detector.fit(data)
+    anomalies = detector.predict(data)
+    assert len(anomalies) == 1
+    assert anomalies.iloc[0]['sales_amount'] == 105
